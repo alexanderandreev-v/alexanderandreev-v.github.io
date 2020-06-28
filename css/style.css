@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "Tinkoff Sans";
+    src: url('../assets/fonts/TinkoffSans.woff2') format('woff2'),
+        url('../assets/fonts/TinkoffSans.woff') format('woff'),
+        url('../assets/fonts/TinkoffSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Neue Haas Unica W1G Regular";
+    src: url("../assets/fonts/Neue-Haas-Unica-W1G-Regular.woff2") format("woff2"),
+        url("../assets/fonts/Neue-Haas-Unica-W1G-Regular.woff") format("woff"),
+        url("../assets/fonts/Neue-Haas-Unica-W1G-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica W1G Medium";
+    src: url("../assets/fonts/Neue-Haas-Unica-W1G-Medium.woff2") format("woff2"),
+        url("../assets/fonts/Neue-Haas-Unica-W1G-Medium.woff") format("woff"),
+        url("../assets/fonts/Neue-Haas-Unica-W1G-Medium.ttf") format("truetype");
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Neue Haas Unica W1G", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+::selection {
+    background-color: #f7f8bc;
+}
+
+img {
+    user-select: none;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/img_header.jpg), #C4C4C4;
+}
+
+main {
+    text-align: center;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #1771E6;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover {
+    color: #1464CC;
+}
+
+a:active {
+    color: #0953B2;
+}
+
+a:focus {
+    color: #0953B2;
+}
+
+h1 {
+    font-family: "Tinkoff Sans";
+    font-size: 44px;
+    line-height: 48px;
+}
+
+h2 {
+    font-family: "Tinkoff Sans";
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h3 {
+    font-family: "Tinkoff Sans";
+    font-size: 28px;
+    line-height: 32px;
+}
+
+h4 {
+    font-family: "Tinkoff Sans";
+    font-size: 24px;
+    line-height: 28px;
+}
+
+p {
+    font-family: "Neue Haas Unica W1G";
+    font-style: normal;
+    font-weight: normal;   
+}
+
+.body-l-regular {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.body-m-regular {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.text-secondary {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.avatar {
+    border: 5px solid #FFFFFF;
+    border-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px rgba(51, 51, 51, 0.2);
+    margin-top: -90px;
+}
+
+#promo {
+    margin: 32px 0 72px 0;
+}
+
+#promo .body-l-regular {
+    margin: 16px 0 32px 0;
+}
+
+.btn {
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    transition: all 300ms ease-in-out;
+}
+
+.btn-l {
+    padding: 16px 32px;
+}
+
+.btn-m {
+    padding: 10px 20px;
+}
+
+.btn-s {
+    padding: 8px 12px;
+}
+
+.btn-icon {
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.btn-secondary {
+    background-color: #ECF1F7;
+}
+
+.btn-secondary:hover {
+    background-color: #E4EBF3;
+}
+
+.btn-secondary:focus {
+    background-color: #DDE4ED;
+}
+
+.btn-secondary:active {
+    background-color: #DDE4ED;
+}
+
+/* .btn-outline-dark {
+    position: fixed;
+    right: 240px;
+    top: 340px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+} */
+
+#btn-behance {
+    color: #0057FF;
+    margin-right: 8px;
+}
+
+#btn-behance:hover {
+    background-color: rgba(0, 87, 255, 0.1);
+}
+
+#btn-behance:active {
+    background-color: rgba(0, 87, 255, 0.2);
+}
+
+#btn-behance:focus {
+    background-color: rgba(0, 87, 255, 0.2);
+}
+
+#btn-github {
+    color: #24292E;
+}
+
+#btn-github:hover {
+    background-color: rgba(36, 41, 46, 0.1);
+}
+
+#btn-github:active {
+    background-color: rgba(36, 41, 46, 0.2);
+}
+
+#btn-github:focus {
+    background-color: rgba(36, 41, 46, 0.2);
+}
+
+.contacts {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts .divider {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(193, 193, 193, 0.5);
+    margin: 0 16px;
+}
+
+#navigation {
+    margin-top: 72px;
+}
+
+.tabs-list li {
+    list-style-type: none;
+    display: inline-block;
+}
+.tabs-list li a {
+    padding: 16px 36px;
+    background-color: #ffffff;
+    border: 1px solid #E7E8EA;
+    box-sizing: border-box;
+    font-family: "Neue Haas Unica W1G Regular";
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: -5px;
+}
+
+.border-left {
+    border-radius: 8px 0 0 8px;
+}
+
+.border-right {
+    border-radius: 0 8px 8px 0;
+}
+
+.tabs-list li a.active {
+    border: 2px solid #FFDD2D;
+    box-sizing: border-box;
+    position: relative;
+    transition: none;
+    padding: 15px 35px;
+}
+#tabsWrap .tab {
+    display: none;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: left;
+}
+#tabsWrap .tab.active {
+    display: block;
+    margin-top: 48px;
+}
+
+.badge {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 8px;
+    background-color: #F5F5F6;
+    border-radius: 12px;
+}
+
+.work-preview-wrapper .img-work-preview {
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.work-preview-wrapper .work-date {
+    margin: 16px 0;
+}
