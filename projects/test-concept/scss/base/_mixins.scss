@@ -1,0 +1,142 @@
+@mixin btn-reboot {
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    transition: $trs;
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    padding: $btn-large;
+}
+
+@mixin btn ($padding, $bg-color, $text-color, $border-radius) {
+    padding: $padding;
+    background-color: $bg-color;
+    color: $text-color;
+    border-radius: $border-radius;
+}
+
+@mixin subgrid ($col-number) {
+    display: grid;
+    grid-template-columns: repeat($col-number, 1fr);
+}
+
+@mixin heading ($font-size, $line-height) {
+    font-family: "TinkoffSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin body-x-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+@mixin body-x-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+@mixin body-l-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+@mixin body-l-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+@mixin body-m-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+@mixin body-m-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+@mixin body-s-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@mixin body-s-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@mixin body-xs-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+@mixin caption-l-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+@mixin caption-l-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@mixin caption-s-medium {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@mixin caption-s-regular {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

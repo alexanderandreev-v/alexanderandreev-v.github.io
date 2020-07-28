@@ -1,0 +1,21 @@
+.crs-body {
+    color: $color-text-300;
+    background-color: $white;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    .crs-navbar-bg {
+        height: 48px;
+        width: 100vw;
+        background-color: $gray-100;
+        position: absolute;
+    }
+
+    .crs-content {
+        margin-top: 96px;
+    }
+}
+
+::selection {
+    background-color: $lightyellow;
+}

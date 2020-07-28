@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Тестирование студентов. Концепт</title>
+      <script src="js/scorm_websoft.min.js"></script>
+      <!-- <script src="js/module.js"></script> -->
+      <link rel="stylesheet" href="course.css">
+   </head>
+   <body class="crs-body" onload="">
+
+
+      <section class="crs-grid">
+               <div class="tab-pane active" id="m1_q1" role="tabpanel" aria-labelledby="module-1__question1">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Когда брокер Тинькофф получил лицензию на брокерское и депозитарное
+                     обслуживание?
+                  </p>
+                  <div class="custom-control custom-radio answer-1">
+                     <input type="radio" id="customRadio_m1_q1_a1" name="customRadio1"
+                        class="custom-control-input wrong_1">
+                     <label class="custom-control-label" for="customRadio_m1_q1_a1">
+                        <p class="answer-wrong">5 мая 2019 года</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-1">
+                     <input type="radio" id="customRadio_m1_q1_a2" name="customRadio1"
+                        class="custom-control-input wrong_1">
+                     <label class="custom-control-label" for="customRadio_m1_q1_a2">
+                        <p class="answer-wrong">10 сентября 2014 года</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-1">
+                     <input type="radio" id="customRadio_m1_q1_a3" name="customRadio1"
+                        class="custom-control-input wright_1">
+                     <label class="custom-control-label" for="customRadio_m1_q1_a3">
+                        <p class="answer-wright">6 марта 2018 года</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer1();">
+                  <img src="assets/icons/interface/x24/ic-settings.svg" alt="Настройки"
+                     class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 2 -->
+               <div class="tab-pane fade" id="m1_q2" role="tabpanel" aria-labelledby="module-1__question2">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">К каким биржам клиенту предоставляется доступ при открытии брокерского счета
+                     Тинькофф?
+                  </p>
+                  <div class="custom-control custom-radio answer-2">
+                     <input type="radio" id="customRadio_m1_q2_a1" name="customRadio2"
+                        class="custom-control-input wrong_2">
+                     <label class="custom-control-label" for="customRadio_m1_q2_a1">
+                        <p class="answer-wrong">Московская биржа, NYSE, NASDAQ и LSE, и другие</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-2">
+                     <input type="radio" id="customRadio_m1_q2_a2" name="customRadio2"
+                        class="custom-control-input wright_2">
+                     <label class="custom-control-label" for="customRadio_m1_q2_a2">
+                        <p class="answer-wright">Московская Биржа и Санкт-Петербургская биржа</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-2">
+                     <input type="radio" id="customRadio_m1_q2_a3" name="customRadio2"
+                        class="custom-control-input wrong_2">
+                     <label class="custom-control-label" for="customRadio_m1_q2_a3">
+                        <p class="answer-wrong">Московская биржа, NYSE, NASDAQ и LSE</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer2();"><img
+                     src="assets/icons/interface/x24/ic-settings.svg" alt="Настройки"
+                     class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 3 -->
+               <div class="tab-pane" id="m1_q3" role="tabpanel" aria-labelledby="module-1__question3">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">К каким рынкам предоствляется доступ через сервис Тинькофф?</p>
+                  <div class="custom-control custom-checkbox answer-3">
+                     <input type="checkbox" class="custom-control-input wrong_3" name="customCheck3"
+                        id="customCheck_m1_q3_a1">
+                     <label class="custom-control-label wrong_3" for="customCheck_m1_q3_a1">
+                        <p class="answer-wrong">Биржи NYSE, NASDAQ, LSE</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-3">
+                     <input type="checkbox" class="custom-control-input wright_3" name="customCheck3"
+                        id="customCheck_m1_q3_a2">
+                     <label class="custom-control-label wright_3" for="customCheck_m1_q3_a2">
+                        <p class="answer-wright">Валютная секция Московской биржи </p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-3">
+                     <input type="checkbox" class="custom-control-input wright_3" name="customCheck3"
+                        id="customCheck_m1_q3_a3">
+                     <label class="custom-control-label wright_3" for="customCheck_m1_q3_a3">
+                        <p class="answer-wright">Секция иностранных бумаг Санкт-Петербургской биржи </p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-3">
+                     <input type="checkbox" class="custom-control-input wrong_3" name="customCheck3"
+                        id="customCheck_m1_q3_a4">
+                     <label class="custom-control-label wrong_3" for="customCheck_m1_q3_a4">
+                        <p class="answer-wrong">Срочная секция Московской биржи </p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-3">
+                     <input type="checkbox" class="custom-control-input wright_3" name="customCheck3"
+                        id="customCheck_m1_q3_a5">
+                     <label class="custom-control-label wright_3" for="customCheck_m1_q3_a5">
+                        <p class="answer-wright">Фондовая секция Московской биржи</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer3();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 4 -->
+               <div class="tab-pane" id="m1_q4" role="tabpanel" aria-labelledby="module-1__question4">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Кто контролирует работу бирж на территории Российской Федерации?</p>
+                  <div class="custom-control custom-radio answer-4">
+                     <input type="radio" id="customRadio_m1_q4_a1" name="customRadio4"
+                        class="custom-control-input wrong_4">
+                     <label class="custom-control-label" for="customRadio_m1_q4_a1">
+                        <p class="answer-wrong">Управление по финансовому регулированию и надзору</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-4">
+                     <input type="radio" id="customRadio_m1_q4_a2" name="customRadio4"
+                        class="custom-control-input wrong_4">
+                     <label class="custom-control-label" for="customRadio_m1_q4_a2">
+                        <p class="answer-wrong">Комиссия по ценным бумагам и биржам</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-4">
+                     <input type="radio" id="customRadio_m1_q4_a3" name="customRadio4"
+                        class="custom-control-input wright_4">
+                     <label class="custom-control-label" for="customRadio_m1_q4_a3">
+                        <p class="answer-wright">Центральный Банк Российской Федерации</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-4">
+                     <input type="radio" id="customRadio_m1_q4_a4" name="customRadio4"
+                        class="custom-control-input wrong_4">
+                     <label class="custom-control-label" for="customRadio_m1_q4_a4">
+                        <p class="answer-wrong">Никто, биржи сами контролируют свою деятельность</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer4();"><img
+                     src="assets/icons/interface/x24/ic-settings.svg" alt="Настройки"
+                     class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 5 -->
+               <div class="tab-pane" id="m1_q5" role="tabpanel" aria-labelledby="module-1__question5">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Выбери верное определение. Квалифицированный инвестор — это:</p>
+                  <div class="custom-control custom-radio answer-5">
+                     <input type="radio" id="customRadio_m1_q5_a1" name="customRadio5"
+                        class="custom-control-input wrong_5">
+                     <label class="custom-control-label" for="customRadio_m1_q5_a1">
+                        <p class="answer-wrong">Участник рынка, который по договоренности с биржей поддерживает величину спрэда за счет предоставления объема на покупку и продажу. За выполнение функций маркет-мейкера биржа предоставляет льготы по оплате комиссий</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-5">
+                     <input type="radio" id="customRadio_m1_q5_a2" name="customRadio5"
+                        class="custom-control-input wrong_5">
+                     <label class="custom-control-label" for="customRadio_m1_q5_a2">
+                        <p class="answer-wrong">Юридическое лицо, которое осуществляет организацию рынка товаров, валют, ценных бумаг и производных финансовых инструментов, а также обеспечивающее его регулярное функционирование</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-5">
+                     <input type="radio" id="customRadio_m1_q5_a3" name="customRadio5"
+                        class="custom-control-input wrong_5">
+                     <label class="custom-control-label" for="customRadio_m1_q5_a3">
+                        <p class="answer-wrong">Торговый представитель, юридическое лицо, профессиональный участник рынка ценных бумаг, который имеет право совершать операции с ценными бумагами по поручению клиента и за его счёт или от своего имени и за счёт клиента на основании возмездных договоров с клиентом</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-5">
+                     <input type="radio" id="customRadio_m1_q5_a4" name="customRadio5"
+                        class="custom-control-input wright_5">
+                     <label class="custom-control-label" for="customRadio_m1_q5_a4">
+                        <p class="answer-wright">Физическое или юридическое лицо, которое может быть признано для осуществления операций на рынке ценных бумаг в отношении одного или нескольких видов ценных бумаг и иных финансовых инструментов, одного вида или нескольких видов услуг, предназначенных для квалифицированных инвесторов</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer5();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 6 -->
+               <div class="tab-pane" id="m1_q6" role="tabpanel" aria-labelledby="module-1__question6">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Как называется механизм переноса ликвидности с американских площадок на
+                     российскую биржу?
+                  </p>
+                  <div class="custom-control custom-radio answer-6">
+                     <input type="radio" id="customRadio_m1_q6_a1" name="customRadio6"
+                        class="custom-control-input wrong_6">
+                     <label class="custom-control-label" for="customRadio_m1_q6_a1">
+                        <p class="answer-wrong">Адресная заявка</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-6">
+                     <input type="radio" id="customRadio_m1_q6_a2" name="customRadio6"
+                        class="custom-control-input wrong_6">
+                     <label class="custom-control-label" for="customRadio_m1_q6_a2">
+                        <p class="answer-wrong">Волатильность</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-6">
+                     <input type="radio" id="customRadio_m1_q6_a3" name="customRadio6"
+                        class="custom-control-input wright_6">
+                     <label class="custom-control-label" for="customRadio_m1_q6_a3">
+                        <p class="answer-wright">Рутинг</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-6">
+                     <input type="radio" id="customRadio_m1_q6_a4" name="customRadio6"
+                        class="custom-control-input wrong_6">
+                     <label class="custom-control-label" for="customRadio_m1_q6_a4">
+                        <p class="answer-wrong">Дискретный аукцион</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer6();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 7 -->
+               <div class="tab-pane" id="m1_q7" role="tabpanel" aria-labelledby="module-1__question7">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Какие есть виды анализа торгов на бирже?</p>
+                  <div class="custom-control custom-checkbox answer-7">
+                     <input type="checkbox" class="custom-control-input wright_7" name="customCheck7"
+                        id="customCheck_m1_q7_a1">
+                     <label class="custom-control-label wright_7" for="customCheck_m1_q7_a1">
+                        <p class="answer-wright">Технический анализ</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-7">
+                     <input type="checkbox" class="custom-control-input wrong_7" name="customCheck7"
+                        id="customCheck_m1_q7_a2">
+                     <label class="custom-control-label wrong_7" for="customCheck_m1_q7_a2">
+                        <p class="answer-wrong">Биржевой анализ</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-7">
+                     <input type="checkbox" class="custom-control-input wright_7" name="customCheck7"
+                        id="customCheck_m1_q7_a3">
+                     <label class="custom-control-label wright_7" for="customCheck_m1_q7_a3">
+                        <p class="answer-wright">Фундаментальный анализ</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer7();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 8 -->
+               <div class="tab-pane" id="m1_q8" role="tabpanel" aria-labelledby="module-1__question8">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Брокер - это</p>
+                  <div class="custom-control custom-radio answer-8">
+                     <input type="radio" id="customRadio_m1_q8_a1" name="customRadio8"
+                        class="custom-control-input wright_8">
+                     <label class="custom-control-label" for="customRadio_m1_q8_a1">
+                        <p class="answer-wright">Юридическое лицо, профессиональный участник рынка ценных бумаг. Торговый представитель клиента (финансовый посредник), имеющий право совершать операции с ценными бумагами по поручению и за счет клиента или от своего имени и за счет клиента на основании возмездных договоров с клиентом.</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-8">
+                     <input type="radio" id="customRadio_m1_q8_a2" name="customRadio8"
+                        class="custom-control-input wrong_8">
+                     <label class="custom-control-label" for="customRadio_m1_q8_a2">
+                        <p class="answer-wrong">Профессиональный участник рынка ценных бумаг, осуществляющий услуги по хранению сертификатов ценных бумаг и/или осуществляющий услуги по учету перехода прав собственности на ценные бумаги</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-8">
+                     <input type="radio" id="customRadio_m1_q8_a3" name="customRadio8"
+                        class="custom-control-input wrong_8">
+                     <label class="custom-control-label" for="customRadio_m1_q8_a3">
+                        <p class="answer-wrong">Юридическое лицо, профессиональный участник рынка ценных бумаг, осуществляющий биржевое посредничество от своего имени и за свой счет путем публичного объявления цен покупки/продажи с обязательством покупки/продажи по объявленным ценам</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer8();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 9 -->
+               <div class="tab-pane" id="m1_q9" role="tabpanel" aria-labelledby="module-1__question9">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Какие виды рынков бывают? </p>
+                  <div class="custom-control custom-checkbox answer-9">
+                     <input type="checkbox" class="custom-control-input wright_9" name="customCheck9"
+                        id="customCheck_m1_q9_a1">
+                     <label class="custom-control-label wright_9" for="customCheck_m1_q9_a1">
+                        <p class="answer-wright">Внебиржевой рынок, где торговля инструментами происходит без контроля биржи</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-9">
+                     <input type="checkbox" class="custom-control-input wrong_9" name="customCheck9"
+                        id="customCheck_m1_q9_a2">
+                     <label class="custom-control-label wrong_9" for="customCheck_m1_q9_a2">
+                        <p class="answer-wrong">Брокерский - сам брокер заключает договор покупки или продажи ценных бумаг с инвесторами</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-9">
+                     <input type="checkbox" class="custom-control-input wright_9" name="customCheck9"
+                        id="customCheck_m1_q9_a3">
+                     <label class="custom-control-label wright_9" for="customCheck_m1_q9_a3">
+                        <p class="answer-wright">Валютный рынок - основным товаром выступает валюта различных стран</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-9">
+                     <input type="checkbox" class="custom-control-input wright_9" name="customCheck9"
+                        id="customCheck_m1_q9_a4">
+                     <label class="custom-control-label wright_9" for="customCheck_m1_q9_a4">
+                        <p class="answer-wright">Фондовый рынок - площадка, которая дает возможность торговать ценными бумагами</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-checkbox answer-9">
+                     <input type="checkbox" class="custom-control-input wright_9" name="customCheck9"
+                        id="customCheck_m1_q9_a5">
+                     <label class="custom-control-label wright_9" for="customCheck_m1_q9_a5">
+                        <p class="answer-wright">Срочный рынок, на котором происходит заключение срочных контрактов, таких как фьючерсы и опционы</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer9();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+               <!-- Вопрос 10 -->
+               <div class="tab-pane" id="m1_q10" role="tabpanel" aria-labelledby="module-1__question10">
+                  <div class="space-24"></div>
+                  <p class="body-l-medium">Выбери правильное определение. Шаг цены — это :</p>
+                  <div class="custom-control custom-radio answer-10">
+                     <input type="radio" id="customRadio_m1_q10_a1" name="customRadio10"
+                        class="custom-control-input wrong_10">
+                     <label class="custom-control-label" for="customRadio_m1_q10_a1">
+                        <p class="answer-wrong">Время расчетов по сделке и обновлению информации в депозитарии</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-10">
+                     <input type="radio" id="customRadio_m1_q10_a2" name="customRadio10"
+                        class="custom-control-input wrong_10">
+                     <label class="custom-control-label" for="customRadio_m1_q10_a2">
+                        <p class="answer-wrong">Таблица заявок на покупку и продажу активов</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-10">
+                     <input type="radio" id="customRadio_m1_q10_a3" name="customRadio10"
+                        class="custom-control-input wright_10">
+                     <label class="custom-control-label" for="customRadio_m1_q10_a3">
+                        <p class="answer-wright">Минимальное изменение цены определенного инструмента</p>
+                     </label>
+                  </div>
+                  <div class="custom-control custom-radio answer-10">
+                     <input type="radio" id="customRadio_m1_q10_a4" name="customRadio10"
+                        class="custom-control-input wrong_10">
+                     <label class="custom-control-label" for="customRadio_m1_q10_a4">
+                        <p class="answer-wrong">Минимальная единица для покупки или продажи актива</p>
+                     </label>
+                  </div>
+                  <div class="space-24"></div>
+                  <button class="btn btn-primary btn-check-answer" onclick="CheckAnswer10();"><img src="assets/icons/interface/x24/ic-settings.svg"
+                     alt="Настройки" class="img-fluid ic-left">Проверить ответ</button>
+               </div>
+            </div>
+         </section>
+ 
+
+
+
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- <script src="js/vendor/CSSRulePlugin.js"></script>
+      <script src="js/vendor/TextPlugin.js"></script>
+      <script src="js/vendor/gsap.js"></script> -->
+      <script src="js/vendor/bootstrap.bundle.min.js"></script>
+      <script src="js/vendor/SmoothScroll.min.js"></script>
+      <script src="course.js"></script>
+      <!-- <script src="js/animation.js"></script> -->
+   </body>
+</html>

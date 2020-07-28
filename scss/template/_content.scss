@@ -1,0 +1,163 @@
+.aside-left {
+    position: fixed;
+    border-right: 1px solid $black-200;
+    width: 112px;
+    height: 100vh;
+    .navbar-brand {
+        margin: 48px 32px 0 32px;
+        cursor: none;
+    }
+    .social {
+        position: relative;
+        bottom: -75%;
+        margin-top: 0;
+        transform: rotate(-90deg);
+        .navbar {
+            .nav-item {
+                .nav-link-linked-in {
+                    &:hover {
+                        color: #006699;
+                    }
+                }
+                .nav-link-github {
+                    &:hover {
+                        color: #636262;
+                    }
+                }
+                .nav-link-behance {
+                    &:hover {
+                        color: #1769FF;
+                    }
+                }
+                .nav-link-telegram {
+                    &:hover {
+                        color: #1D92C3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.aside-right {
+    position: fixed;
+    border-left: 1px solid $black-200;
+    width: 112px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    .copyright {
+        font-family: 'San Francisco Pro Display Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: $gray-100;
+        transform: rotate(-90deg);
+        position: relative;
+        bottom: -85%;
+        margin-top: 0;
+    }
+}
+
+.contacts {
+    grid-column: 2/8;
+    margin-top: 240px;
+    .h2 {
+        margin-bottom: 32px;
+    }
+}
+
+.img-works {
+    position: absolute;
+    right: 112px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img-about {
+    position: absolute;
+    width: 600px;
+    right: 112px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img-main {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cv {
+    margin-top: 112px;
+    grid-column: 2/9;
+    border: 1px solid $white;
+    background-color: $black-300;
+    padding: 48px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .h2 {
+        margin-bottom: 24px;
+    }
+
+    .h3 {
+        margin-bottom: 16px;
+    }
+
+    hr {
+        margin: 32px 0;
+    }
+
+    .ul {
+        li {
+            margin-bottom: 12px;
+        }
+    }
+
+    .contacts {
+        margin-top: 0;
+        display: flex;
+        p {
+            margin-right: 24px;
+        }
+    }
+}
+
+.porfolio {
+    grid-column: 2/12;
+    margin-top: 112px;
+    margin-bottom: 112px;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    .portfolio-item {
+        height: 206px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $gray-100;
+        cursor: none;
+        // cursor: pointer;
+        p {
+            font-family: 'San Francisco Pro Display Bold';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: right;
+            letter-spacing: 2px;
+            color: $gray-100;
+            opacity: 0.7;
+            margin-left: auto;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+/*Брейкпоинт для xs*/
+@media (max-width: 576px) {
+    .body {
+        cursor: inherit;
+    }
+    .btn-nav-mobile {
+        display: block;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 16px;
+        column-gap: 16px;
+    }
+    .col-fluid {
+        grid-column: 1/-1;
+    }
+    .aside-left {
+        display: none;
+    }
+    .aside-right {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    .cursor, .cursor2, .cursor3 {
+        display: none; 
+    }
+
+    .img-works {
+        display: none;
+    }
+
+    .img-about {
+        display: none;
+    }
+    
+    .img-main {
+        display: none;
+    }
+}
+
+
+/*Брейкпоинт для sm*/
+@media (min-width: 576px) and (max-width: 768px) {
+    .btn-nav-mobile {
+        display: block;
+    }
+    .body {
+        cursor: inherit;
+    }
+    .grid {
+        margin: 0 32px;
+    }
+    .col-fluid {
+        grid-column: 1/-1;
+    }
+    br {
+        display: none;
+    }
+    .cursor, .cursor2, .cursor3 {
+        display: none; 
+    }
+    .img-works {
+        display: none;
+    }
+
+    .img-about {
+        display: none;
+    }
+    
+    .img-main {
+        display: none;
+    }
+}
+
+/*Брейкпоинт для md*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .btn-nav-mobile {
+        display: block;
+    }
+    .body {
+        cursor: inherit;
+    }
+    .grid {
+        margin: 0 72px;
+    }
+    .col-fluid {
+        grid-column: 1/-1;
+    }
+    br {
+        display: none;
+    }
+    .cursor, .cursor2, .cursor3 {
+        display: none; 
+    }
+    .img-works {
+        display: none;
+    }
+
+    .img-about {
+        display: none;
+    }
+    
+    .img-main {
+        display: none;
+    }
+}
+
+/*Брейкпоинт для lg*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    .body {
+        cursor: inherit;
+    }
+    .cursor, .cursor2, .cursor3 {
+        display: none; 
+    }
+}
+
+
+
+/*Брейкпоинт для xl*/
+@media (min-width:1200px) {
+    .body {
+        cursor: none;
+    }
+}

@@ -1,0 +1,67 @@
+.disabled {
+    transition: $trs;
+    opacity: 0.5 !important;
+    user-select: none !important;
+    pointer-events: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.c-no-drop {
+    cursor: no-drop;
+}
+
+.c-wait {
+    cursor: wait;
+}
+
+.align-center {
+    align-items: center !important;
+}
+
+.justify-end {
+    justify-content: flex-end !important;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+img {
+    user-select: none !important;
+}
+
+.opacity-50 {
+    transition: $trs;
+    opacity: .5 !important;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z--1 {
+    z-index: -1;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

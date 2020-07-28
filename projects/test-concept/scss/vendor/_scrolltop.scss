@@ -1,0 +1,80 @@
+.progress-wrap {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	right: 56px;
+    bottom: 56px;
+	width: 48px;
+    height: 48px;
+	cursor: pointer;
+	border-radius: 50px;
+	z-index: 2;
+    opacity: 0;
+    border: 1px solid $gray-200;
+	visibility: hidden;
+	transition: $trs;
+	img {
+		position: absolute;
+		width: 1.5rem;
+	}
+}
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+	background-color: $white;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.progress-wrap.active-progress:hover {
+	background-color: $lightgray;
+}
+.progress-wrap.active-progress:active {
+	background-color: mix($lightgray, $black-400, 97%);
+}
+
+.progress-wrap::after {
+	position: absolute;
+	color: $blue-100;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+    transition: $trs;
+}
+.progress-wrap:hover::after {
+	opacity: 0;
+}
+.progress-wrap::before {
+	position: absolute;
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	opacity: 0;
+	background-image: linear-gradient(298deg, var(--red), var(--yellow));
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+    transition: $trs;
+}
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: $blue-100;
+	stroke-width: 3;
+	box-sizing:border-box;
+    transition: $trs;
+}

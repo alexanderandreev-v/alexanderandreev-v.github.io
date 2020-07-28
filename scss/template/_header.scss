@@ -1,0 +1,28 @@
+.header {
+    grid-column: 2/8;
+    margin-top: 240px;
+
+    p {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .btn {
+        text-decoration: none;
+    }
+
+    img {
+        right: 0;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+// .name-outline {
+//     background: url(img/av_text.svg);
+//     background-repeat: no-repeat;
+//     display: block;
+//     width: auto;
+//     height: 115px;
+// }

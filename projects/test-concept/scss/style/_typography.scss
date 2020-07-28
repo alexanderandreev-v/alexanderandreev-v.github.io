@@ -1,0 +1,127 @@
+// @font-face {
+// 	font-family: "TinkoffLogo";
+// 	src: url('assets/fonts/TinkoffLogo.woff2') format('woff2'),
+// 	     url('assets/fonts/TinkoffLogo.woff') format('woff'),
+// 	     url('assets/fonts/TinkoffLogo.ttf') format('truetype');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+@font-face {
+	font-family: "TinkoffSans";
+	src: url('assets/fonts/TinkoffSans.woff2') format('woff2'),
+	     url('assets/fonts/TinkoffSans.woff') format('woff'),
+	     url('assets/fonts/TinkoffSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue-Haas-Unica-W1G-Regular";
+    src: url("assets/fonts/Neue-Haas-Unica-W1G-Regular.woff2") format("woff2"),
+        url("assets/fonts/Neue-Haas-Unica-W1G-Regular.woff") format("woff"),
+        url("assets/fonts/Neue-Haas-Unica-W1G-Regular.ttf") format("truetype");
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue-Haas-Unica-W1G-Medium";
+    src: url("assets/fonts/Neue-Haas-Unica-W1G-Medium.woff2") format("woff2"),
+        url("assets/fonts/Neue-Haas-Unica-W1G-Medium.woff") format("woff"),
+        url("assets/fonts/Neue-Haas-Unica-W1G-Medium.ttf") format("truetype");
+    font-weight: normal;
+	font-style: normal;
+}
+
+.h1 {
+    @include heading (50px, 56px); //font-size, line-height
+}
+
+.h2 {
+    @include heading (44px, 48px);
+}
+
+.h3 {
+    @include heading (36px, 40px);
+}
+
+.h4 {
+    @include heading (28px, 32px);
+}
+
+.h5 {
+    @include heading (24px, 28px);
+}
+
+.h6 {
+    @include heading (20px, 24px);
+}
+
+.color-text-300 {
+    color: $color-text-300;
+}
+
+.color-text-200 {
+    color: $color-text-200;
+}
+
+.color-text-100 {
+    color: $color-text-100;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.body-x-medium {
+    @include body-x-medium;
+}
+
+.body-x-regular {
+    @include body-x-regular;
+}
+
+.body-l-medium {
+    @include body-l-medium;
+}
+
+.body-l-regular {
+    @include body-l-regular;
+}
+
+.body-m-medium {
+    @include body-m-medium;
+}
+
+.body-m-regular {
+    @include body-m-regular;
+}
+
+.body-s-medium {
+    @include body-s-medium;
+}
+
+.body-s-regular {
+    @include body-s-regular;
+}
+
+.body-xs-regular {
+    @include body-xs-regular;
+}
+
+.caption-l-medium {
+    @include caption-l-medium;
+}
+
+.caption-l-regular {
+    @include caption-l-regular;
+}
+
+.caption-s-medium {
+    @include caption-s-medium;
+}
+
+.caption-s-regular {
+    @include caption-s-regular;
+}

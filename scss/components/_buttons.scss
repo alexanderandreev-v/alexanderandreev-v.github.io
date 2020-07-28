@@ -1,0 +1,22 @@
+.btn-primary {
+    padding: 16px 24px;
+    font-family: 'San Francisco Pro Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+    // cursor: pointer;
+    cursor: none;
+    transition: $trs;
+    &:hover {
+        background-color: $white;
+        color: $black-300;
+    }
+    &:focus {
+        outline: none;
+    }
+}

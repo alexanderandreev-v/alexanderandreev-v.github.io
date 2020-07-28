@@ -1,0 +1,116 @@
+.nav {
+    margin-top: 62px;
+    grid-column: 2/7;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        white-space: nowrap;
+        padding: 0;
+
+        .nav-item {
+            margin-right: 32px;
+
+            .nav-link {
+                color: $gray-100;
+                text-decoration: none;
+                font-family: 'San Francisco Pro Display Bold';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 16px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                transition: $trs;
+                cursor: none;
+
+                &:hover {
+                    color: $white;
+                }
+
+                &-active {
+                    color: $white;
+                }
+            }
+        }
+
+        .nav-item:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.btn-nav-mobile {
+    position: fixed;
+    left: 16px;
+    top: 32px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn-nav-mobile-close {
+    position: fixed;
+    left: 16px;
+    top: 32px;
+    cursor: pointer;
+}
+
+.nav-mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $black-300;
+    z-index: 2;
+
+    .nav-mobile-links {
+        margin-top: 128px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .nav-mobile__link {
+            color: $gray-100;
+            text-decoration: none;
+            margin-bottom: 32px;
+        }
+
+        .active {
+            color: $white;
+        }
+    }
+
+    .nav-mobile-footer {
+        margin-top: 48px;
+        text-align: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            a {
+                color: $gray-100;
+                text-decoration: none;
+                margin-right: 12px;
+
+                font-family: 'San Francisco Pro Display Bold';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 16px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+}
+
+// .language-change {
+//     position: absolute;
+//     right: 257px;
+//     top: 0;
+//     grid-column: 11/13;
+// }

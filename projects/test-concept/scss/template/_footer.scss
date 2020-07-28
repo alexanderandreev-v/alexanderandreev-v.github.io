@@ -1,0 +1,11 @@
+.footer {
+    margin: 112px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    .btn-primary {
+        font-family: "Neue-Haas-Unica-W1G-Medium";
+        .img-fluid {
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+}

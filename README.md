@@ -1,2 +1,2 @@
 # alexanderandreev-v.github.io
- Небольшая страница — CV для презентации
+ My personal site

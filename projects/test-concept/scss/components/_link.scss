@@ -1,0 +1,11 @@
+.crs-link {
+    color: $blue-100;
+    transition: $trs;
+    &:hover {
+        color: $blue-200;
+        text-decoration: none;
+    }
+    &:active {
+        color: $blue-300;
+    }
+}

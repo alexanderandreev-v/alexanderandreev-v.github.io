@@ -1,0 +1,11 @@
+.body::-webkit-scrollbar {
+    background: $black-200;
+    width: 5px;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background-color: mix($black-200, $white, 70%);
+    &:hover {
+        background-color: $white;
+    }
+}
