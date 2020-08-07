@@ -1,78 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      <title>Александр Андреев. UX/UI дизайнер</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="js/jquery-3.5.0.min.js"></script>
-      <script src="js/CSSRulePlugin.js"></script>
-      <script src="js/gsap.js"></script>
-   </head>
-   <body class="body">
-      <aside class="aside-left">
-         <a href="#"><img src="img/logo.svg" alt="Александр Андреев" class="navbar-brand hover-target"></a>
-         <nav class="nav social">
-            <ul class="navbar">
-               <li class="nav-item"><a href="https://www.linkedin.com/in/alexanderandreevweb" target="_blank" class="nav-link nav-link-linked-in hover-target">LinkedIn</a></li>
-               <li class="nav-item"><a href="https://www.behance.net/av-web-design" target="_blank" class="nav-link nav-link-behance hover-target">Behance</a></li>
-               <li class="nav-item"><a href="https://t-do.ru/Alexander_Andreev_V/" target="_blank" class="nav-link nav-link-telegram hover-target">telegram</a></li>
-               <li class="nav-item"><a href="https://github.com/alexanderandreev-v" target="_blank" class="nav-link nav-link-github hover-target">GitHub</a></li>
-            </ul>
-         </nav>
-      </aside>
-      <div class="grid">
-         <nav class="nav">
-            <ul class="navbar">
-               <li class="nav-item"><a href="#" class="nav-link nav-link-active hover-target">Главная</a> </li>
-               <li class="nav-item"><a href="works.html" class="nav-link hover-target">Портфолио</a></li>
-               <li class="nav-item"><a href="about.html" class="nav-link hover-target">Резюме</a></li>
-               <li class="nav-item"><a href="contacts.html" class="nav-link hover-target">Контакты</a></li>
-            </ul>
-         </nav>
-         <header class="header col-fluid">
-            <h1 class="h1">Александр <br> Андреев.</h1>
-            <p class="body-l-regular">UX/UI дизайнер с опытом работы веб разработчиком. Разрабатываю концепции <br> и дизайн
-               удобных веб-интерфейсов и мобильных приложений iOS/Android 
-            </p>
-            <a href="about.html" class="btn btn-primary hover-target">Узнать больше</a>
-         </header>
-         <img src="img/img_av_photo_1.png" alt="Александр Андреев" class="blend-lighten img-main">
-         <img src="assets/icons/mobile_nav.svg" alt="Меню" class="btn-nav-mobile">
-      <nav class="nav-mobile hide">
-         <img src="assets/icons/mobile_nav_close.svg" alt="Закрыть меню" class="btn-nav-mobile-close">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александр Андреев. UX/UI Дизайнер</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body css-grid">
+
+    <nav class="nav">
+        <a href="#" class="logo"><img src="assets/logo.svg" alt="Александр Адреев Логотип"></a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="projects.html">Портфолио</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="lang-toggle">
+            <li><a href="#" class="active">ru</a></li>
+            <li><a href="#">en</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h5>Александр Андреев</h5>
+        <h1>UX/UI Дизайнер</h1>
+        <p>Здравствуйте! Я UX/UI дизайнер с опытом работы веб разработчиком, более 2 лет разрабатываю концепции и дизайн удобных веб-интерфейсов</p>
+        <a class="btn-primary-l" href="projects.html"><img src="assets/corner.svg" alt="" class="corner-left-top"><img src="assets/corner.svg" alt="" class="corner-left-bottom"><img src="assets/corner.svg" alt="" class="corner-right-top"><img src="assets/corner.svg" alt="" class="corner-right-bottom">Узнать больше</a>
+    </header>
+
+    <!-- <nav class="social">
+        <ul class="nav-links">
+            <li><a href="#">linked in</a></li>
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">telegram</a></li>
+        </ul>
+    </nav> -->
 
 
-         <div class="nav-mobile-links">
-            <a href="index.html" class="h4  nav-mobile__link">Главная</a>
-            <a href="works.html" class="h4  nav-mobile__link">Портфолио</a>
-            <a href="about.html" class="h4  nav-mobile__link">Резюме</a>
-            <a href="contacts.html" class="h4  nav-mobile__link active">Контакты</a>
-         </div>
-         <div class="nav-mobile-footer">
-            <ul>
-               <li><a href="https://www.linkedin.com/in/alexanderandreevweb" target="_blank" class="nav-link-linked-in">LinkedIn</a></li>
-               <li><a href="https://www.behance.net/av-web-design" target="_blank" class="nav-link-behance">Behance</a></li>
-               <li><a href="https://t-do.ru/Alexander_Andreev_V/" target="_blank" class="nav-link-telegram ">telegram</a></li>
-               <li><a href="https://github.com/alexanderandreev-v" target="_blank" class="nav-link-github">GitHub</a></li>
-            </ul>
-         </div>
-
-
-      </nav>
-         <!-- <nav class="nav language-change">
-            <ul class="navbar">
-               <li class="nav-item"><a href="#" class="nav-link hover-target">Позвонить</a> </li>
-               <li class="nav-item"><a href="#" class="nav-link hover-target">Написать</a></li>
-            </ul>
-         </nav> -->
-      </div>
-      <aside class="aside-right">
-         <p class="copyright">© 2020 александр андреев – Все права защищены</p>
-      </aside>
-      <div class="cursor" id="cursor"></div>
-      <div class="cursor2" id="cursor2"></div>
-      <div class="cursor3" id="cursor3"></div>
-      <script src="script.js"></script>
-   </body>
+</body>
 </html>

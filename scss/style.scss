@@ -1,20 +1,13 @@
-@import "base/_variables";
-@import "base/_mixins";
-@import "base/_helpers";
+@import "abstracts/_variables";
+@import "abstracts/_mixins";
 
-@import "vendors/_reboot";
-@import "vendors/_cursor";
+@import "base/_reset";
+@import "base/_typography";
 
-@import "components/_nav";
 @import "components/_buttons";
-@import "components/_link";
 
-@import "style/_colors";
-@import "style/_typography";
-@import "style/_scrollbar";
+@import "layout/_grid";
+@import "layout/_header";
+@import "layout/_navbar";
 
-@import "template/_body";
-@import "template/_header";
-@import "template/_content";
-@import "template/_grid";
-@import "template/_responsive";
+@import "vendors/_cursor";

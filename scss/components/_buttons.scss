@@ -1,22 +1,39 @@
-.btn-primary {
-    padding: 16px 24px;
-    font-family: 'San Francisco Pro Display Medium';
+.btn-primary-l {
+    padding: 32px 72px;
+    background: rgba(51, 51, 51, 0.3);
+    border: 1px solid #333333;
+    box-sizing: border-box;
     font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 26px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 1px;
-    background-color: transparent;
-    border: 1px solid $white;
-    color: $white;
-    // cursor: pointer;
-    cursor: none;
-    transition: $trs;
-    &:hover {
-        background-color: $white;
-        color: $black-300;
+    color: #89FFB7;
+    position: relative;
+    .corner-left-top {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
-    &:focus {
-        outline: none;
+    .corner-left-bottom {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: rotate(90deg);
+    }
+    .corner-right-top {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: rotate(-90deg);
+    }
+    .corner-right-bottom {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: rotate(180deg);
     }
 }
