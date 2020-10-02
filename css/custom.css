@@ -42,6 +42,36 @@ body {
     font-style: normal;
 }
 
+::selection {
+    color: #ffffff;
+    background-color: #7B61FF;
+}
+
+ul.striped li {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cta-btn {
+    padding: 16px 32px;
+    border: 0;
+    outline: none;
+    background-color: #7B61FF;
+    transition: all 300ms ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #6b50f7;
+}
+
+.cta-btn:active {
+    background-color: #5d41eb;
+}
+
+.cta-btn:focus {
+    background-color: #5d41eb;
+}
+
 /* @font-face {
     font-family: 'SF Pro Display';
     src: url('SFProDisplay-Medium.eot');
