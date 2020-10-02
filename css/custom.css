@@ -42,6 +42,19 @@ body {
     font-style: normal;
 }
 
+.text-link {
+    transition: all 300ms ease-in-out;
+    font-size: 20px;
+}
+
+.text-link:hover {
+ color: #7B61FF;   
+}
+
+.bg.faded {
+    opacity: .3;
+}
+
 ::selection {
     color: #ffffff;
     background-color: #7B61FF;
@@ -53,23 +66,35 @@ ul.striped li {
 }
 
 .cta-btn {
-    padding: 16px 32px;
+    padding: 24px 40px;
     border: 0;
     outline: none;
-    background-color: #7B61FF;
+    background-color: #fff;
+    color: #212121;
     transition: all 300ms ease-in-out;
 }
 
 .cta-btn:hover {
     background-color: #6b50f7;
+    color: #ffffff;
 }
 
 .cta-btn:active {
     background-color: #5d41eb;
+    color: #ffffff;
 }
 
 .cta-btn:focus {
     background-color: #5d41eb;
+    color: #ffffff;
+}
+
+h3.stripe:before {
+    content: none;
+}
+
+.label-small {
+    font-size: 14px;
 }
 
 /* @font-face {
