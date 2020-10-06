@@ -883,7 +883,7 @@ ul.comments li.comment ul.comments li.comment .comment-body p {
   top: 0;
   bottom: 0;
   position: fixed;
-  opacity: 0;
+  opacity: .1;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
