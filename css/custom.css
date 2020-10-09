@@ -45,6 +45,7 @@ body {
 .text-link {
     transition: all 300ms ease-in-out;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .text-link:hover {
@@ -73,6 +74,7 @@ ul.striped li {
     background-color: #fff;
     color: #212121;
     transition: all 300ms ease-in-out;
+    width: 100%;
 }
 
 .cta-btn:hover {

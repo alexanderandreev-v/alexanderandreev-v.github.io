@@ -73,7 +73,7 @@
     if($body.hasClass('menu-open')){
       TweenMax.staggerTo($navLinks, 2, {opacity: 1, ease: Power3.easeInOut}, .2);
     } else {
-      TweenLite.to($navLinks, 0, {opacity: 0, ease: Power3.easeInOut}, .2);
+      TweenLite.to($navLinks, 0, {opacity: 0, ease: Power3.easeInOut}, .2,);
     }
   });
 
@@ -158,9 +158,9 @@
     }).on('progress', function() {
       loaded++;
       if(loaded < 2)
-        $loader.find('.description').text('image loaded');
+        $loader.find('.description').text('изображений загружено');
       else
-        $loader.find('.description').text('images loaded');
+        $loader.find('.description').text('изображений загружено');
       $loader.find('.loaded').text(loaded);
       setTimeout(function(){
         $loader.find('.number').text(Math.round(loaded/totalImg*100));
